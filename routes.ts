@@ -3,7 +3,7 @@ import { createServer, type Server } from "http";
 import multer from "multer";
 import path from "path";
 import { storage } from "./storage";
-import { insertListingSchema, insertPaymentSchema, insertPhoneUnlockSchema } from "@shared/schema";
+import { insertListingSchema, insertPaymentSchema, insertPhoneUnlockSchema } from "./schema";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
 
